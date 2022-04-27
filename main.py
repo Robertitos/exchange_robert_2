@@ -32,4 +32,5 @@ if __name__ == '__main__':
     salir_al_pulsar()
 
     while(True):
+        time.sleep(300)
         muestra_cotizaciones()
