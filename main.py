@@ -24,7 +24,7 @@ def muestra_cotizaciones():
 
     for i in range(5):
         dibuja_cotizaciones(buffer)
-        time.sleep(300)
+        time.sleep(1)
 
 
 if __name__ == '__main__':
@@ -33,3 +33,4 @@ if __name__ == '__main__':
 
     while(True):
         muestra_cotizaciones()
+        time.sleep(300)
